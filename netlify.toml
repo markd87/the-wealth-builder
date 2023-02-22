@@ -9,4 +9,3 @@
     # set TERM variable for terminal output
     TERM = "xterm"
 
-[[plugins]]
