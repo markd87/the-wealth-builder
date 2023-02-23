@@ -20,7 +20,7 @@ class MyDocument extends Document {
             gtag('config', '${GA_MEASUREMENT_ID}');
           `}
         </Script>
-        <Script>{`(function(s,u,z,p){s.src=u,s.setAttribute('data-zone',z),p.appendChild(s);})(document.createElement('script'),'https://inklinkor.com/tag.min.js',5741114,document.body||document.documentElement)`}</Script>
+        <Script id="monetag">{`(function(s,u,z,p){s.src=u,s.setAttribute('data-zone',z),p.appendChild(s);})(document.createElement('script'),'https://inklinkor.com/tag.min.js',5741114,document.body||document.documentElement)`}</Script>
         <body
           className={`antialiased text-lg bg-white dark:bg-gray-900 dark:text-white leading-base`}
         >
