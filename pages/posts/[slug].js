@@ -42,6 +42,12 @@ export default function PostPage({
         title={`${frontMatter.title} - ${globalData.name}`}
         description={frontMatter.description}
       />
+      <Script
+        id="adsense"
+        async
+        src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4447030181844253"
+        crossorigin="anonymous"
+      />
       <Header name={globalData.name} />
       <article className="px-6 md:px-0">
         <header>
