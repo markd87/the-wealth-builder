@@ -15,6 +15,7 @@ import Footer from '../../components/Footer';
 import Header from '../../components/Header';
 import Layout, { GradientBackground } from '../../components/Layout';
 import SEO from '../../components/SEO';
+import Script from 'next/script';
 
 // Custom components/renderers to pass to MDX.
 // Since the MDX files aren't loaded by webpack, they have no knowledge of how
@@ -55,6 +56,7 @@ export default function PostPage({
           <article className="prose dark:prose-dark">
             <MDXRemote {...source} components={components} />
           </article>
+          <Script id="monetag">{`(function(s,u,z,p){s.src=u,s.setAttribute('data-zone',z),p.appendChild(s);})(document.createElement('script'),'https://inklinkor.com/tag.min.js',5741114,document.body||document.documentElement)`}</Script>
         </main>
         <div className="grid md:grid-cols-2 lg:-mx-24 mt-12">
           {prevPost && (
