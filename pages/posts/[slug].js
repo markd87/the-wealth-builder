@@ -48,6 +48,12 @@ export default function PostPage({
         src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4447030181844253"
         crossorigin="anonymous"
       />
+      <Script
+        async
+        custom-element="amp-ad"
+        src="https://cdn.ampproject.org/v0/amp-ad-0.1.js"
+        id="display_ad"
+      />
       <Header name={globalData.name} />
       <article className="px-6 md:px-0">
         <header>
@@ -61,6 +67,17 @@ export default function PostPage({
         <main>
           <article className="prose dark:prose-dark">
             <MDXRemote {...source} components={components} />
+            <amp-ad
+              width="100vw"
+              height="320"
+              type="adsense"
+              data-ad-client="ca-pub-4447030181844253"
+              data-ad-slot="9680959990"
+              data-auto-format="rspv"
+              data-full-width=""
+            >
+              <div overflow=""></div>
+            </amp-ad>
           </article>
         </main>
         <div className="grid md:grid-cols-2 lg:-mx-24 mt-12">
