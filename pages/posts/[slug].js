@@ -56,7 +56,6 @@ export default function PostPage({
           <article className="prose dark:prose-dark">
             <MDXRemote {...source} components={components} />
           </article>
-          <Script id="monetag">{`(function(d,z,s){s.src='https://'+d+'/401/'+z;try{(document.body||document.documentElement).appendChild(s)}catch(e){}})('goomaphy.com',5741134,document.createElement('script'))`}</Script>
         </main>
         <div className="grid md:grid-cols-2 lg:-mx-24 mt-12">
           {prevPost && (
