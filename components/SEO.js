@@ -9,6 +9,7 @@ export default function SEO({ title, description, image }) {
       <meta property="og:image" content={image} />
       <meta name="robots" content="index, follow" />
       <meta name="monetag" content="70ccbe930069abd378084c17b9e6621e" />
+      <link rel="icon" type="image/jpg" href="images/favicon.ico" />
     </Head>
   );
 }
