@@ -41,6 +41,7 @@ export default function PostPage({
       <SEO
         title={`${frontMatter.title} - ${globalData.name}`}
         description={frontMatter.description}
+        image={frontMatter.image}
       />
       <Script
         id="adsense"
