@@ -67,18 +67,18 @@ export default function PostPage({
         <main>
           <article className="prose dark:prose-dark">
             <MDXRemote {...source} components={components} />
-            <amp-ad
-              width="100vw"
-              height="320"
-              type="adsense"
-              data-ad-client="ca-pub-4447030181844253"
-              data-ad-slot="9680959990"
-              data-auto-format="rspv"
-              data-full-width=""
-            >
-              <div overflow=""></div>
-            </amp-ad>
           </article>
+          <amp-ad
+            width="100vw"
+            height="320"
+            type="adsense"
+            data-ad-client="ca-pub-4447030181844253"
+            data-ad-slot="9680959990"
+            data-auto-format="rspv"
+            data-full-width=""
+          >
+            <div overflow=""></div>
+          </amp-ad>
         </main>
         <div className="grid md:grid-cols-2 lg:-mx-24 mt-12">
           {prevPost && (
