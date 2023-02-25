@@ -14,7 +14,10 @@ const GA_MEASUREMENT_ID = process.env.NEXT_PUBLIC_MEASUREMENT_ID;
 export default function Index({ posts, globalData }) {
   return (
     <Layout>
-      <SEO title={globalData.blogTitle} description={globalData.blogTitle} />
+      <SEO
+        title={globalData.blogTitle}
+        description="The Richest Mind is your ultimate source for practical tips and in-depth analysis on personal finance, entrepreneurship, and investing. Start your journey towards financial success today by exploring The Richest Mind."
+      />
       <Script
         src={`https://www.googletagmanager.com/gtag/js?id=${GA_MEASUREMENT_ID}`}
         strategy="afterInteractive"
