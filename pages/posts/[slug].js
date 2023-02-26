@@ -74,6 +74,8 @@ export default function PostPage({
           <article className="prose dark:prose-dark">
             <MDXRemote {...source} components={components} />
           </article>
+          <br />
+          <div className="sharethis-inline-share-buttons"></div>
           <amp-ad
             width="100vw"
             height="320"
