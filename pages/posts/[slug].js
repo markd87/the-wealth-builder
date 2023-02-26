@@ -55,6 +55,11 @@ export default function PostPage({
         src="https://cdn.ampproject.org/v0/amp-ad-0.1.js"
         id="display_ad"
       />
+      <Script
+        type="text/javascript"
+        src="https://platform-api.sharethis.com/js/sharethis.js#property=63faa1fe4a7908001298b323&product=inline-share-buttons&source=platform"
+        async="async"
+      />
       <Header name={globalData.name} />
       <article className="px-6 md:px-0">
         <header>
