@@ -57,7 +57,7 @@ export default function PostPage({
       />
       <Script
         type="text/javascript"
-        src="https://platform-api.sharethis.com/js/sharethis.js#property=63faa1fe4a7908001298b323&product=inline-share-buttons&source=platform"
+        src="https://platform-api.sharethis.com/js/sharethis.js#property=63faa1305271340015307f3d&product=inline-share-buttons"
         async="async"
       />
       <Header name={globalData.name} />
