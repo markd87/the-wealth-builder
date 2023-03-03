@@ -13,6 +13,7 @@ import ArrowIcon from '../../components/ArrowIcon';
 import CustomLink from '../../components/CustomLink';
 import Footer from '../../components/Footer';
 import Header from '../../components/Header';
+import Ascript from '../../components/Ascript';
 import Layout, { GradientBackground } from '../../components/Layout';
 import SEO from '../../components/SEO';
 import Script from 'next/script';
@@ -27,7 +28,7 @@ const components = {
   // useful for conditionally loading components for certain routes.
   // See the notes in README.md for more details.
   Head,
-  Script,
+  Ascript,
 };
 
 export default function PostPage({
