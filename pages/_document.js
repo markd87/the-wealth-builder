@@ -37,6 +37,13 @@ class MyDocument extends Document {
         >
           <Main />
           <NextScript />
+          <Script
+            data-cfasync="false"
+            type="text/javascript"
+            data-adel="atag"
+            src="//asacdn.com/script/atg.js"
+            czid="vrnrzwc5zy"
+          />
         </body>
       </Html>
     );
