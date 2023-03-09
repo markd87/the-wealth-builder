@@ -31,6 +31,7 @@ class MyDocument extends Document {
           src="https://platform-api.sharethis.com/js/sharethis.js#property=63faa1305271340015307f3d&product=inline-share-buttons"
           async="async"
         />
+
         <body
           className={`antialiased text-lg bg-white dark:bg-gray-900 dark:text-white leading-base`}
         >
