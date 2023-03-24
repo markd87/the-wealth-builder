@@ -78,6 +78,10 @@ export default function PostPage({
           </article>
           <br />
           <div className="sharethis-inline-share-buttons"></div>
+          <br/>
+          <!-- Ezoic - bottom_of_page - bottom_of_page -->
+<div id="ezoic-pub-ad-placeholder-104"> </div>
+<!-- End Ezoic - bottom_of_page - bottom_of_page -->
           <amp-ad
             width="100vw"
             height="320"
