@@ -35,6 +35,14 @@ export default function Index({ posts, globalData }) {
         <h1 className="text-3xl lg:text-5xl text-center mb-12">
           {globalData.blogTitle}
         </h1>
+        <div style={{ textAlign: 'center' }}>
+          <Link as={'/about-us'} href={'/about-us'}>
+            <a className="py-3 focus:outline-none focus:ring-4">
+              <h2 className="text-3xl lg:text-3xl">About Us</h2>
+            </a>
+          </Link>
+        </div>
+        <br />
         <ul className="w-full">
           {posts.map((post) => (
             <li
