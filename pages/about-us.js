@@ -36,17 +36,17 @@ export default function AboutUs({ globalData }) {
             Welcome to The Richest Mind, a finance and wealth management blog
             focused on helping individuals build and manage their wealth through
             smart financial decisions. As the writer and founder of this blog,
-            I'm passionate about sharing my knowledge and experience in personal
-            finance, investing, real estate, entrepreneurship, and other related
-            topics.
+            I&apos;m passionate about sharing my knowledge and experience in
+            personal finance, investing, real estate, entrepreneurship, and
+            other related topics.
           </p>
           <br />
           <p>
             My goal is to provide my readers with practical and actionable
             advice that they can apply to their own financial situation. Whether
-            you're just starting your financial journey or looking to take your
-            finances to the next level, The Richest Mind is here to guide you
-            along the way.
+            you&apos;re just starting your financial journey or looking to take
+            your finances to the next level, The Richest Mind is here to guide
+            you along the way.
           </p>
           <br />
           <p>
